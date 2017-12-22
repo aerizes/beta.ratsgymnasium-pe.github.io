@@ -1,0 +1,150 @@
+body{
+  font-family: 'Cabin', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(white, background-color: #f4f4f4);
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+
+header{
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  box-shadow: 0px 4px 15px grey;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15.5px;
+  text-decoration: underline;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #Titel{
+  float: left;
+
+}
+
+header #Titel h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+header .highlight, header .current a{
+  color: #f49542;
+  font-weight: bold;
+
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#Neuigkeiten{
+  min-height: 400px;
+  background: url("../images/banner1.jpg") no-repeat;
+  text-align: center;
+  color: #ffffff;
+
+
+}
+
+#Neuigkeiten h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 30px black;
+}
+
+#Neuigkeiten p{
+  font-size: 15px;
+  text-shadow: 1px 1px 10px black;
+}
+
+button{
+  border: none;
+  height: 50px;
+  width: 150px;
+  background: #f49542;
+  margin-top: 30px;
+  color: #ffffff;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 50px black;
+}
+
+#Informatien{
+  margin-top: 20px;
+
+}
+
+#Informationen .Boxen{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+}
+
+#Informationen .Boxen img{
+  width: 50px;
+  padding: 20px;
+}
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #35424a;
+  text-align: center;
+}
+
+@media(max-width: 768px) {
+  header nav,
+  header nav li,
+  header #Titel,
+  #Informationen .Boxen{
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+    header{
+      padding-bottom: 20px;
+    }
+    #Neuigkeiten h1{
+      margin-top: 40px;
+    }
+
+    button{
+      margin-bottom: 40px;
+    }
+
+  }
+
+
+}
